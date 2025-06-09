@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uso de float</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: Arial;
+    }
+    .main {
+      background: green;
+      width: 90%;
+      margin: auto;
+      padding: 10px;
+      overflow: hidden;
+    }
+    
+    .caja {
+      width: 500px;
+      height: 200px;
+      margin: 20px;
+      
+    }
+
+    .img {
+      float: left;
+      width: auto;
+    }
+
+    .text {
+      float: left;
+    }
+
+
+    /*Estilos para articulos*/
+
+    .artiulo {
+      background: rgb(0, 225, 255);
+      width: 500px;
+      margin: auto;
+      padding: 10px;
+    }
+    .artiulo h2 {
+      padding: 10px;
+      text-align: center;
+    }
+    .artiulo img {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <main class="main">
+    <div class="caja img">
+      <img src="https://picsum.photos/200/300" height="200">
+    </div>
+
+    <div  class="caja text">
+      <h2>Soy un encabezado</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut debitis 
+      doloribus voluptas fugiat autem repellat dignissimos reiciendis libero modi 
+      omnis nostrum recusandae corrupti quibusdam, facere tenetur amet enim magni 
+      reprehenderit.</p> 
+    </div> 
+  </main>
+
+  <article class="artiulo">
+    <h2>encabezado de Artículo</h2>
+    <img src="https://picsum.photos/200/300"width="200">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut debitis 
+    doloribus voluptas fugiat autem repellat dignissimos reiciendis libero modi 
+    omnis nostrum recusandae corrupti quibusdam, facere tenetur amet enim magni 
+    reprehenderit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut debitis 
+    doloribus voluptas fugiat autem repellat dignissimos reiciendis libero modi 
+    omnis nostrum recusandae corrupti quibusdam, facere tenetur amet enim magni 
+    reprehenderit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut debitis 
+    doloribus voluptas fugiat autem repellat dignissimos reiciendis libero modi 
+    omnis nostrum recusandae corrupti quibusdam, facere tenetur amet enim magni 
+    reprehenderit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut debitis 
+    doloribus voluptas fugiat autem repellat dignissimos reiciendis libero modi 
+    omnis nostrum recusandae corrupti quibusdam, facere tenetur amet enim magni 
+    reprehenderit.</p>
+    
+  </article>
+  
+</body>
+</html>
