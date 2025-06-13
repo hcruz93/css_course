@@ -12,7 +12,7 @@ body{
 /*            ENCABEZADO
 =================================== */
 .header{
-  background-color: rgb(14, 14, 134);
+  background-color: #0e0e86;
   text-align: center;
   padding: 50px 0;
 }
@@ -39,5 +39,74 @@ body{
 .answer p{
   font-size: 25px;
   font-weight: bold;
-  
+
+}
+
+/*     CONTENENDOR DE FIGURAS 
+=================================== */
+
+.figures {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden; /*Respetar padre*/
+
+}
+
+/*     CASILLAS O CAJAS
+=================================== */
+
+.box {
+  width: 340px;
+  height: 600px;
+  border: 3px solid #0e0e86;
+  border-radius: 10px;
+  margin: 15px;
+  float: left; /*Para que se acomoden en fila*/
+
+}
+
+/*  ENCABEZADO Y MAIN DE LA CAJA
+=================================== */
+
+.box-header {
+  background-color: #0e0e86;
+  text-align: center;
+  padding: 15px 0;
+  color : #fff;
+}
+
+.box-main {
+  padding: 10px;
+  text-align: center;
+}
+
+.box-main__text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box-main__input {
+  height: 40px;
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  color: #0e0e86;
+  border: solid #0e0e86;
+  border-radius: 5px;
+}
+
+.box-main__btn{
+  background-color: #0e0e86;
+  color: #fff;
+  width: 120px;
+  font-size: 18px;
+  padding : 10px;
+  text-align: center;
+  margin: 5px;
+  border-style: none;
+  border-radius: 10px;
 }
